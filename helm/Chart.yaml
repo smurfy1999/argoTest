@@ -1,5 +1,5 @@
 apiVersion: v2
 name: test
-description: A test for argo deployment
+description: Another test for argo deployment
 version: 1.0.0
 appVersion: 1.0.0
