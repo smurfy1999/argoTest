@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sample-appb
+  name: sample-app
   namespace: test
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: sample-appb
+      app: sample-app
   template:
     metadata:
       labels:
-        app: sample-appb
+        app: sample-app
     spec:
       containers:
-        - name: sample-appb
+        - name: sample-app
           image: nginx
